@@ -17,8 +17,8 @@
     "react-dropzone": "^14.2.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build"
   },
   "devDependencies": {
     "react-scripts": "5.0.1",
