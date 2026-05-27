@@ -1,6 +1,6 @@
 
 > umukozi-frontend@1.0.0 build
-> react-scripts build
+> node ./node_modules/react-scripts/bin/react-scripts.js build
 
 Creating an optimized production build...
 Compiled successfully.

@@ -4,7 +4,7 @@ import { messages } from '../services/api';
 import io from 'socket.io-client';
 import { Send, User as UserIcon } from 'lucide-react';
 
-const socket = io('http://localhost:5000');
+const socket = io(process.env.REACT_APP_WS_URL || 'https://backend-umukozi.onrender.com');
 
 const Messages = () => {
   const { user } = useAuth();
